@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     font-size: 3rem;
-    color: #fff;
+    color: red;
     margin-bottom: 50px;
     background-color: rgb(56, 56, 56);
     height: auto;
@@ -9,11 +9,11 @@ nav {
   }
   
   a {
-    color: #fed420;
+    color: red;
   }
   
   a:hover {
-    color: #fed420;
+    color: red;
     text-decoration: none;
   }
   

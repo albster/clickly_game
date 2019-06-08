@@ -46,7 +46,7 @@ class App extends Component {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "You win!" });
+      this.setState({ rightWrong: "You Win!" });
     }
     this.handleShuffle();
   };
@@ -55,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven!",
+      rightWrong: "You Lose!",
       clicked: []
     });
     this.handleShuffle();
@@ -70,15 +70,14 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Simpsons Clicky Game"
+          title="Opt Art Clicky Game"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}
         />
 
         <Title>
-          Try to click on each character, but don't hit any duplicates, or
-          we'll release the hounds!!!
+          Try to click on each pattern, but don't hit any duplicates.
         </Title>
 
         <Container>
