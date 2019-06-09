@@ -9,6 +9,7 @@ import Column from "./Column";
 import friends from "./friends.json";
 import "./App.css";
 
+
 function shuffleFriends(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -16,6 +17,7 @@ function shuffleFriends(array) {
   }
   return array;
 };
+
 
 class App extends Component {
   // Set this.state
@@ -70,7 +72,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Opt Art Clicky Game"
+          title="Opt Art Clickly Game"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}
