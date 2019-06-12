@@ -1,6 +1,7 @@
 import React from "react";
 import "./FriendCard.css";
 
+
 const FriendCard = props => (
   <div 
     className="card" 
@@ -12,5 +13,6 @@ const FriendCard = props => (
     </div>
   </div>
 );
+
 
 export default FriendCard;
